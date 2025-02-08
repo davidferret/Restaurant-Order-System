@@ -1,14 +1,10 @@
 # Restaurant Order System
 
-This program allows users to place an order from a predefined menu, calculates the total cost including tax, and saves the order details to a receipt file.
+This C project simulates a restaurant ordering system where you can select items from a fixed menu, specify quantities, and calculate the total cost, including a 7% sales tax. The way I programmed this project was by implementing a structured menu system where each item has a predefined price. When you place an order, the program records the items and their quantities, calculates the subtotal, applies the sales tax, and displays the final total. The receipt generation feature was particularly interesting to implement since it required formatting the output neatly for easy readability. Additionally, I added the ability to handle multiple items per order before finalizing, making the ordering process more flexible.
 
-- **Menu Selection**: Users can select items from a fixed menu.
-- **Quantity Input**: Supports ordering multiple quantities of each item.
-- **Total Calculation**: Computes the final price, including a 7% sales tax.
-- **Receipt Generation**: Saves order details and total cost to a text file.
-- **User-Friendly Interface**: Allows multiple items to be added before finalizing the order.
+I built this project because I wanted to practice handling structured data and file management while making something practical. Working with input validation, loops for adding multiple items, and proper formatting for receipt output was a fun challenge. Hopefully, this makes ordering food in a simulated environment feel smooth and efficient!
 
-## Example Usage
+## Example Output
 ```
 --- Menu ---
 [1] Double Cheese Burger - $5.00
